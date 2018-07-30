@@ -3,6 +3,8 @@
 255.255.255.255	broadcasthost
 ::1	localhost ip6-localhost ip6-loopback
 fe80::1%lo0	localhost
+
+
 # Pixivhost
 210.129.120.60  ns1.pixiv.net
 210.129.120.62  ns2.pixiv.net

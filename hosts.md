@@ -4,7 +4,6 @@
 ::1	localhost ip6-localhost ip6-loopback
 fe80::1%lo0	localhost
 
-
 210.140.92.134 i.pximg.net
 210.140.92.134 img-novel.pximg.net
 210.140.92.134 pixiv.pximg.net

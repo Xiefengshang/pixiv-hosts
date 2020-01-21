@@ -1,5 +1,5 @@
 ;不要随意改变关键字，否则会导致出错--hypeneko
-
+;机场n3ro.fun
 ;设置规则标志位
 surge_ruleset=DIRECT,rules/ConnersHua/Surge/Ruleset/Unbreak.list
 surge_ruleset=🛑 全球拦截,rules/NobyDa/Surge/AdRule.list

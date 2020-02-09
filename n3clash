@@ -1,5 +1,5 @@
-;不要随意改变关键字，否则会导致出错--hypeneko
-;机场n3ro.fun
+;不要随意改变关键字，否则会导致出错--xieshang
+;机场yoyu.pro
 ;设置规则标志位
 surge_ruleset=DIRECT,rules/ConnersHua/Surge/Ruleset/Unbreak.list
 surge_ruleset=🛑 全球拦截,rules/NobyDa/Surge/AdRule.list
@@ -17,21 +17,17 @@ surge_ruleset=🐟 漏网之鱼,[]FINAL
 ;设置规则标志位
 
 ;设置分组标志位
-custom_proxy_group=🔰 线路选择`select`[]🚀 高速CN2`[]🚁 极速中继`[]🛰 IPLC专线`[]🍙 指定节点`[]⏩ 不走代理
-custom_proxy_group=🚀 高速CN2`select`[]🚀 自动选择`(CN2|HINET)
-custom_proxy_group=🚁 极速中继`select`[]🚁 自动选择`(中继)
-custom_proxy_group=🛰 IPLC专线`select`[]🛰 自动选择`(IPLC)
+custom_proxy_group=🔰 线路选择`select`[]🚀 日用节点`[]🍙 指定节点`[]⏩ 不走代理
+custom_proxy_group=🚀 日用节点`select`[]🚀 自动选择`(日用专线)
 custom_proxy_group=🍙 指定节点`select`.*
-custom_proxy_group=🎥 分流-NETFLIX`select`[]🚁 极速中继`[]🔰 线路选择`(中继|CN2 香港)`⏩ 不走代理
-custom_proxy_group=📹 分流-YouTube`select`[]🚀 高速CN2`[]🚁 极速中继`[]🔰 线路选择`(中继|CN2)`⏩ 不走代理
-custom_proxy_group=📲 分流-电报代理`select`[]🔰 线路选择`[]🛰 IPLC专线`(新加坡)`⏩ 不走代理
-custom_proxy_group=🚀 自动选择`url-test`(CN2|HINET)`http://www.gstatic.com/generate_204`400
-custom_proxy_group=🚁 自动选择`url-test`(中继)`http://www.gstatic.com/generate_204`400
-custom_proxy_group=🛰 自动选择`url-test`(IPLC)`http://www.gstatic.com/generate_204`400
+custom_proxy_group=🎥 分流-NETFLIX`select`[]🚀 日用节点`[]🍙 指定节点`⏩ 不走代理
+custom_proxy_group=📹 分流-YouTube`select`[]🚀 日用节点`[]🍙 指定节点`⏩ 不走代理
+custom_proxy_group=📲 分流-电报代理`select`[]🔰 线路选择`⏩ 不走代理
+custom_proxy_group=🚀 自动选择`url-test`(日用节点)`http://www.gstatic.com/generate_204`400
+custom_proxy_group=🛰 自动选择`url-test`(指定节点)`http://www.gstatic.com/generate_204`400
 custom_proxy_group=🌍 国外媒体`select`[]🔰 线路选择`⏩ 不走代理
 custom_proxy_group=🌏 国内媒体`select`⏩ 不走代理`[]🔰 线路选择
 custom_proxy_group=🛑 全球拦截`select`[]REJECT`⏩ 不走代理
 custom_proxy_group=⏩ 不走代理`select`[]DIRECT
 custom_proxy_group=🐟 漏网之鱼`select`[]🔰 线路选择`⏩ 不走代理
-custom_proxy_group=📢 N3RO机场专供规则-bug请向群组反馈`select`[]DIRECT
 ;设置分组标志位
